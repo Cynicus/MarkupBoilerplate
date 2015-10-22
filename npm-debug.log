@@ -1,0 +1,319 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   'postcss',
+1 verbose cli   'mqpacker',
+1 verbose cli   'cssnext',
+1 verbose cli   '--save-dev' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'postcss', null ]
+7 verbose cache add name=undefined spec="postcss" args=["postcss",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'postcss',
+8 verbose parsed url   path: 'postcss',
+8 verbose parsed url   href: 'postcss' }
+9 verbose cache add [ 'mqpacker', null ]
+10 verbose cache add name=undefined spec="mqpacker" args=["mqpacker",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'mqpacker',
+11 verbose parsed url   path: 'mqpacker',
+11 verbose parsed url   href: 'mqpacker' }
+12 verbose cache add [ 'cssnext', null ]
+13 verbose cache add name=undefined spec="cssnext" args=["cssnext",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'cssnext',
+14 verbose parsed url   path: 'cssnext',
+14 verbose parsed url   href: 'cssnext' }
+15 silly lockFile eee6200b-postcss postcss
+16 verbose lock postcss /home/kzee/.npm/eee6200b-postcss.lock
+17 silly lockFile efef1d49-mqpacker mqpacker
+18 verbose lock mqpacker /home/kzee/.npm/efef1d49-mqpacker.lock
+19 silly lockFile bfade35e-cssnext cssnext
+20 verbose lock cssnext /home/kzee/.npm/bfade35e-cssnext.lock
+21 silly lockFile eee6200b-postcss postcss
+22 silly lockFile eee6200b-postcss postcss
+23 silly lockFile efef1d49-mqpacker mqpacker
+24 silly lockFile efef1d49-mqpacker mqpacker
+25 verbose addNamed [ 'postcss', '' ]
+26 verbose addNamed [ null, '*' ]
+27 silly lockFile f4257e3c-postcss postcss@
+28 verbose lock postcss@ /home/kzee/.npm/f4257e3c-postcss.lock
+29 silly lockFile bfade35e-cssnext cssnext
+30 silly lockFile bfade35e-cssnext cssnext
+31 verbose addNamed [ 'mqpacker', '' ]
+32 verbose addNamed [ null, '*' ]
+33 silly lockFile b500722d-mqpacker mqpacker@
+34 verbose lock mqpacker@ /home/kzee/.npm/b500722d-mqpacker.lock
+35 verbose addNamed [ 'cssnext', '' ]
+36 verbose addNamed [ null, '*' ]
+37 silly lockFile fba56aaa-cssnext cssnext@
+38 verbose lock cssnext@ /home/kzee/.npm/fba56aaa-cssnext.lock
+39 silly addNameRange { name: 'mqpacker', range: '*', hasData: false }
+40 silly addNameRange { name: 'postcss', range: '*', hasData: false }
+41 verbose request where is /mqpacker
+42 verbose request registry https://registry.npmjs.org/
+43 verbose request id 9f41e95155fe62ca
+44 verbose url raw /mqpacker
+45 verbose url resolving [ 'https://registry.npmjs.org/', './mqpacker' ]
+46 verbose url resolved https://registry.npmjs.org/mqpacker
+47 verbose request where is https://registry.npmjs.org/mqpacker
+48 info trying registry request attempt 1 at 14:19:07
+49 http GET https://registry.npmjs.org/mqpacker
+50 silly addNameRange { name: 'cssnext', range: '*', hasData: false }
+51 verbose request where is /cssnext
+52 verbose request registry https://registry.npmjs.org/
+53 verbose url raw /cssnext
+54 verbose url resolving [ 'https://registry.npmjs.org/', './cssnext' ]
+55 verbose url resolved https://registry.npmjs.org/cssnext
+56 verbose request where is https://registry.npmjs.org/cssnext
+57 info trying registry request attempt 1 at 14:19:07
+58 http GET https://registry.npmjs.org/cssnext
+59 verbose request where is /postcss
+60 verbose request registry https://registry.npmjs.org/
+61 verbose url raw /postcss
+62 verbose url resolving [ 'https://registry.npmjs.org/', './postcss' ]
+63 verbose url resolved https://registry.npmjs.org/postcss
+64 verbose request where is https://registry.npmjs.org/postcss
+65 info trying registry request attempt 1 at 14:19:07
+66 verbose etag "5UMB2S9DNFCQLCT5EKOZ25WYE"
+67 http GET https://registry.npmjs.org/postcss
+68 http 404 https://registry.npmjs.org/mqpacker
+69 silly registry.get cb [ 404,
+69 silly registry.get   { 'content-type': 'application/json',
+69 silly registry.get     'cache-control': 'max-age=0',
+69 silly registry.get     'content-length': '2',
+69 silly registry.get     'accept-ranges': 'bytes',
+69 silly registry.get     date: 'Tue, 22 Sep 2015 04:19:13 GMT',
+69 silly registry.get     via: '1.1 varnish',
+69 silly registry.get     age: '0',
+69 silly registry.get     connection: 'keep-alive',
+69 silly registry.get     'x-served-by': 'cache-fra1237-FRA',
+69 silly registry.get     'x-cache': 'MISS',
+69 silly registry.get     'x-cache-hits': '0',
+69 silly registry.get     'x-timer': 'S1442895552.936120,VS0,VE101' } ]
+70 silly lockFile b500722d-mqpacker mqpacker@
+71 silly lockFile b500722d-mqpacker mqpacker@
+72 http 200 https://registry.npmjs.org/postcss
+73 silly registry.get cb [ 200,
+73 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+73 silly registry.get     etag: '"AH2FEIPUYG5QTHQSJRD33HR54"',
+73 silly registry.get     'content-type': 'application/json',
+73 silly registry.get     'cache-control': 'max-age=60',
+73 silly registry.get     'content-length': '122769',
+73 silly registry.get     'accept-ranges': 'bytes',
+73 silly registry.get     date: 'Tue, 22 Sep 2015 04:19:12 GMT',
+73 silly registry.get     via: '1.1 varnish',
+73 silly registry.get     age: '13',
+73 silly registry.get     connection: 'keep-alive',
+73 silly registry.get     'x-served-by': 'cache-fra1246-FRA',
+73 silly registry.get     'x-cache': 'HIT',
+73 silly registry.get     'x-cache-hits': '1',
+73 silly registry.get     'x-timer': 'S1442895552.938577,VS0,VE0',
+73 silly registry.get     vary: 'Accept' } ]
+74 silly addNameRange number 2 { name: 'postcss', range: '*', hasData: true }
+75 silly addNameRange versions [ 'postcss',
+75 silly addNameRange   [ '0.1.0',
+75 silly addNameRange     '0.2.0',
+75 silly addNameRange     '0.3.0',
+75 silly addNameRange     '0.3.1',
+75 silly addNameRange     '0.3.2',
+75 silly addNameRange     '0.3.3',
+75 silly addNameRange     '0.3.4',
+75 silly addNameRange     '0.3.5',
+75 silly addNameRange     '1.0.0',
+75 silly addNameRange     '2.0.0',
+75 silly addNameRange     '2.1.0',
+75 silly addNameRange     '2.1.1',
+75 silly addNameRange     '2.1.2',
+75 silly addNameRange     '2.2.0',
+75 silly addNameRange     '2.2.1',
+75 silly addNameRange     '2.2.2',
+75 silly addNameRange     '2.2.3',
+75 silly addNameRange     '2.2.4',
+75 silly addNameRange     '2.2.5',
+75 silly addNameRange     '2.2.6',
+75 silly addNameRange     '3.0.0',
+75 silly addNameRange     '3.0.1',
+75 silly addNameRange     '3.0.2',
+75 silly addNameRange     '3.0.3',
+75 silly addNameRange     '3.0.4',
+75 silly addNameRange     '3.0.5',
+75 silly addNameRange     '3.0.6',
+75 silly addNameRange     '3.0.7',
+75 silly addNameRange     '4.0.0',
+75 silly addNameRange     '4.0.1',
+75 silly addNameRange     '4.0.2',
+75 silly addNameRange     '4.0.3',
+75 silly addNameRange     '4.0.4',
+75 silly addNameRange     '4.0.5',
+75 silly addNameRange     '4.0.6',
+75 silly addNameRange     '4.1.0',
+75 silly addNameRange     '4.1.1',
+75 silly addNameRange     '4.1.2',
+75 silly addNameRange     '4.1.3',
+75 silly addNameRange     '4.1.4',
+75 silly addNameRange     '4.1.5',
+75 silly addNameRange     '4.1.6',
+75 silly addNameRange     '4.1.7',
+75 silly addNameRange     '4.1.8',
+75 silly addNameRange     '4.1.9',
+75 silly addNameRange     '4.1.10',
+75 silly addNameRange     '4.1.11',
+75 silly addNameRange     '4.1.12',
+75 silly addNameRange     '4.1.13',
+75 silly addNameRange     '4.1.14',
+75 silly addNameRange     '4.1.15',
+75 silly addNameRange     '4.1.16',
+75 silly addNameRange     '5.0.0',
+75 silly addNameRange     '5.0.1',
+75 silly addNameRange     '5.0.2',
+75 silly addNameRange     '5.0.3',
+75 silly addNameRange     '5.0.4',
+75 silly addNameRange     '5.0.5',
+75 silly addNameRange     '5.0.6' ] ]
+76 verbose addNamed [ 'postcss', '5.0.6' ]
+77 verbose addNamed [ '5.0.6', '5.0.6' ]
+78 silly lockFile 6d1a79f7-postcss-5-0-6 postcss@5.0.6
+79 verbose lock postcss@5.0.6 /home/kzee/.npm/6d1a79f7-postcss-5-0-6.lock
+80 silly lockFile 82928bba-js-org-postcss-postcss-5-0-6-tgz https://registry.npmjs.org/postcss/-/postcss-5.0.6.tgz
+81 verbose lock https://registry.npmjs.org/postcss/-/postcss-5.0.6.tgz /home/kzee/.npm/82928bba-js-org-postcss-postcss-5-0-6-tgz.lock
+82 verbose addRemoteTarball [ 'https://registry.npmjs.org/postcss/-/postcss-5.0.6.tgz',
+82 verbose addRemoteTarball   '876b7474f41aae658c1874514b663db4f251a1d1' ]
+83 info retry fetch attempt 1 at 14:19:08
+84 verbose fetch to= /tmp/npm-28489-Lh55nJuG/registry.npmjs.org/postcss/-/postcss-5.0.6.tgz
+85 http GET https://registry.npmjs.org/postcss/-/postcss-5.0.6.tgz
+86 http 200 https://registry.npmjs.org/postcss/-/postcss-5.0.6.tgz
+87 silly lockFile 82928bba-js-org-postcss-postcss-5-0-6-tgz https://registry.npmjs.org/postcss/-/postcss-5.0.6.tgz
+88 silly lockFile 82928bba-js-org-postcss-postcss-5-0-6-tgz https://registry.npmjs.org/postcss/-/postcss-5.0.6.tgz
+89 silly lockFile 6d1a79f7-postcss-5-0-6 postcss@5.0.6
+90 silly lockFile 6d1a79f7-postcss-5-0-6 postcss@5.0.6
+91 silly lockFile f4257e3c-postcss postcss@
+92 silly lockFile f4257e3c-postcss postcss@
+93 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+94 info trying registry request attempt 2 at 14:19:32
+95 http GET https://registry.npmjs.org/cssnext
+96 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+97 info trying registry request attempt 3 at 14:20:47
+98 http GET https://registry.npmjs.org/cssnext
+99 http 200 https://registry.npmjs.org/cssnext
+100 silly registry.get cb [ 200,
+100 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+100 silly registry.get     etag: '"95LDK0Y75W8VFV7DHMVFHHYZS"',
+100 silly registry.get     'content-type': 'application/json',
+100 silly registry.get     'cache-control': 'max-age=60',
+100 silly registry.get     'content-length': '102403',
+100 silly registry.get     'accept-ranges': 'bytes',
+100 silly registry.get     date: 'Tue, 22 Sep 2015 04:20:54 GMT',
+100 silly registry.get     via: '1.1 varnish',
+100 silly registry.get     age: '0',
+100 silly registry.get     connection: 'keep-alive',
+100 silly registry.get     'x-served-by': 'cache-fra1225-FRA',
+100 silly registry.get     'x-cache': 'MISS',
+100 silly registry.get     'x-cache-hits': '0',
+100 silly registry.get     'x-timer': 'S1442895653.788754,VS0,VE424',
+100 silly registry.get     vary: 'Accept' } ]
+101 silly addNameRange number 2 { name: 'cssnext', range: '*', hasData: true }
+102 silly addNameRange versions [ 'cssnext',
+102 silly addNameRange   [ '0.0.0',
+102 silly addNameRange     '0.1.0',
+102 silly addNameRange     '0.2.0',
+102 silly addNameRange     '0.2.1',
+102 silly addNameRange     '0.2.2',
+102 silly addNameRange     '0.2.3',
+102 silly addNameRange     '0.3.0',
+102 silly addNameRange     '0.3.1',
+102 silly addNameRange     '0.4.0',
+102 silly addNameRange     '0.4.1',
+102 silly addNameRange     '0.4.2',
+102 silly addNameRange     '0.4.3',
+102 silly addNameRange     '0.4.4',
+102 silly addNameRange     '0.5.0',
+102 silly addNameRange     '0.6.0',
+102 silly addNameRange     '0.6.1',
+102 silly addNameRange     '0.6.2',
+102 silly addNameRange     '0.6.3',
+102 silly addNameRange     '0.6.4',
+102 silly addNameRange     '0.6.5',
+102 silly addNameRange     '0.6.6',
+102 silly addNameRange     '1.0.0',
+102 silly addNameRange     '1.0.1',
+102 silly addNameRange     '1.1.0',
+102 silly addNameRange     '1.2.0',
+102 silly addNameRange     '1.2.1',
+102 silly addNameRange     '1.2.2',
+102 silly addNameRange     '1.2.3',
+102 silly addNameRange     '1.3.0',
+102 silly addNameRange     '1.3.1',
+102 silly addNameRange     '1.4.0',
+102 silly addNameRange     '1.5.0',
+102 silly addNameRange     '1.5.1',
+102 silly addNameRange     '1.5.2',
+102 silly addNameRange     '1.6.0',
+102 silly addNameRange     '1.7.0',
+102 silly addNameRange     '1.7.1',
+102 silly addNameRange     '1.8.0',
+102 silly addNameRange     '1.8.1',
+102 silly addNameRange     '1.8.2',
+102 silly addNameRange     '1.8.3',
+102 silly addNameRange     '1.8.4' ] ]
+103 verbose addNamed [ 'cssnext', '1.8.4' ]
+104 verbose addNamed [ '1.8.4', '1.8.4' ]
+105 silly lockFile 11ec0622-cssnext-1-8-4 cssnext@1.8.4
+106 verbose lock cssnext@1.8.4 /home/kzee/.npm/11ec0622-cssnext-1-8-4.lock
+107 silly lockFile 61f828d8-js-org-cssnext-cssnext-1-8-4-tgz https://registry.npmjs.org/cssnext/-/cssnext-1.8.4.tgz
+108 verbose lock https://registry.npmjs.org/cssnext/-/cssnext-1.8.4.tgz /home/kzee/.npm/61f828d8-js-org-cssnext-cssnext-1-8-4-tgz.lock
+109 verbose addRemoteTarball [ 'https://registry.npmjs.org/cssnext/-/cssnext-1.8.4.tgz',
+109 verbose addRemoteTarball   'c1ec22a95c20ea0b7441f3af2f664adc6721e181' ]
+110 info retry fetch attempt 1 at 14:20:49
+111 verbose fetch to= /tmp/npm-28489-Lh55nJuG/registry.npmjs.org/cssnext/-/cssnext-1.8.4.tgz
+112 http GET https://registry.npmjs.org/cssnext/-/cssnext-1.8.4.tgz
+113 http 200 https://registry.npmjs.org/cssnext/-/cssnext-1.8.4.tgz
+114 silly lockFile 61f828d8-js-org-cssnext-cssnext-1-8-4-tgz https://registry.npmjs.org/cssnext/-/cssnext-1.8.4.tgz
+115 silly lockFile 61f828d8-js-org-cssnext-cssnext-1-8-4-tgz https://registry.npmjs.org/cssnext/-/cssnext-1.8.4.tgz
+116 silly lockFile 11ec0622-cssnext-1-8-4 cssnext@1.8.4
+117 silly lockFile 11ec0622-cssnext-1-8-4 cssnext@1.8.4
+118 silly lockFile fba56aaa-cssnext cssnext@
+119 silly lockFile fba56aaa-cssnext cssnext@
+120 error 404 Not Found
+120 error 404
+120 error 404 'mqpacker' is not in the npm registry.
+120 error 404 You should bug the author to publish it
+120 error 404 It was specified as a dependency of 'MarkupBoilerplate'
+120 error 404
+120 error 404 Note that you can also install from a
+120 error 404 tarball, folder, or http url, or git url.
+121 error System Linux 3.13.0-63-generic
+122 error command "/usr/bin/node" "/usr/bin/npm" "i" "postcss" "mqpacker" "cssnext" "--save-dev"
+123 error cwd /data/grunt-sites/MarkupBoilerplate
+124 error node -v v0.10.37
+125 error npm -v 1.4.28
+126 error code E404
+127 verbose exit [ 1, true ]
